@@ -7,6 +7,8 @@ document.getElementById("btn-soma").addEventListener("click" , soma);
 document.getElementById("btn-divisao").addEventListener("click" , divisao);
 
 document.getElementById("btn-multiplicar").addEventListener("click" , multiplicar);
+
+document.getElementById("btn-subtrair").addEventListener("click" , subtrair);
 function showcolor()
 {
     document.body.style.backgroundColor = "red";
