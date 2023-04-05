@@ -9,5 +9,5 @@ function showcolor()
 }
 function exibenome()
 {
-    
+let usuario = document.getElementById("nome").value;
 }
