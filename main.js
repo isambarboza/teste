@@ -11,5 +11,5 @@ function exibenome()
 {
     let usuario = document.getElementById( "nome" ).value;
     document.getElementById( "mensagem" ).innerHTML = "Meu nome é:" + usuario;
-    document.getElementById("nome").volue = "";
+    document.getElementById("nome").value = "";
 }
