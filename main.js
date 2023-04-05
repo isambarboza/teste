@@ -37,3 +37,9 @@ function multiplicar()
     let numero6 = document.getElementById("num6").value;
     document.getElementById("resultado3").innerHTML = parseFloat(numero5) * parseFloat(numero6);
 }
+function subtracao()
+{
+    let numero7 = document.getElementById("num7").value;
+    let numero8 = document.getElementById("num8").value;
+    document.getElementById("resultado4").innerHTML = parseFloat(numero7) - parseFloat(numero8);
+}
