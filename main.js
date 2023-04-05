@@ -5,6 +5,8 @@ document.getElementById("botao").addEventListener("click", exibenome);
 document.getElementById("btn-soma").addEventListener("click" , soma);
 
 document.getElementById("btn-divisao").addEventListener("click" , divisao);
+
+document.getElementById("btn-multiplicar").addEventListener("click" , multiplicar);
 function showcolor()
 {
     document.body.style.backgroundColor = "red";
@@ -28,4 +30,10 @@ function divisao()
     let numero3 = document.getElementById("num3").value;
     let numero4 = document.getElementById("num4").value;
     document.getElementById("resultado2").innerHTML = parseFloat(numero3) / parseFloat(numero4);
+}
+function multiplicar()
+{
+    let numero5 = document.getElementById("num5").value;
+    let numero6 = document.getElementById("num6").value;
+    document.getElementById("resultado3").innerHTML = parseFloat(numero5) * parseFloat(numero6);
 }
