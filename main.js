@@ -2,7 +2,7 @@ document.addEventListener("click" , showcolor );
 
 document.getElementById("botao").addEventListener("click", exibenome);
 
-document.getElementById("btn-soma").addEventListener("click" , soma)
+document.getElementById("btn-soma").addEventListener("click" , soma);
 function showcolor()
 {
     document.body.style.backgroundColor = "red";
